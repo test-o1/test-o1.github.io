@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'photo-cli',
+  tagline: 'Extract when and where (reverse geocoding) your photos are taken, copy into a new organized folder with various folder & file naming strategies, export into CSV files.',
   url: 'https://test-o1.github.io', // Your website URL
   baseUrl: '/test-o1/',
   projectName: 'test-o1.github.io',
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'photo-cli',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -54,13 +54,7 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {
