@@ -1,5 +1,26 @@
 https://test-o1.github.io/test-o1/
 
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./logo-light.svg">
+    <img alt="esbuild: An extremely fast JavaScript bundler" src="./logo-light.svg">
+  </picture>
+</p>
+
+## Why?
+
+Our current build tools for the web are 10-100x slower than they could be:
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/benchmark-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/benchmark-light.svg">
+    <img alt="Bar chart with benchmark results" src="./images/benchmark-light.svg">
+  </picture>
+</p>
+
 # Website3
 
 
