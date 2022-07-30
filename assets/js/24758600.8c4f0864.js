@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkt_2=self.webpackChunkt_2||[]).push([[183],{1218:function(t){t.exports=JSON.parse('{"allTagsPath":"/test-o1/blog/tags","slug":"/test-o1/blog/tags/hello","name":"hello","count":2,"permalink":"/test-o1/blog/tags/hello"}')}}]);
