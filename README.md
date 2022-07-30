@@ -3,9 +3,9 @@ https://test-o1.github.io/test-o1/
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./logo-light.svg">
-    <img alt="esbuild: An extremely fast JavaScript bundler" src="./logo-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./static/img/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./static/img/logo-light.svg">
+    <img alt="esbuild: An extremely fast JavaScript bundler" src="./static/img/logo-light.svg">
   </picture>
 </p>
 
