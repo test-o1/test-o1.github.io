@@ -39,13 +39,13 @@ const config = {
       navbar: {
         title: 'photo-cli',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'photo-cli logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'intro-examples',
             position: 'left',
             label: 'Tutorial',
           }
@@ -85,12 +85,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/photo-cli/photo-cli/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,

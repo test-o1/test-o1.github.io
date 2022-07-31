@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81eca180-600a-4ec1-9fb1-8f07a9bd898c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/building-your-own-address-with-selected-properties.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/merging-selected-address-level-properties-into-single-address.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/selecting-third-party-reverse-geocode-provider.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/setting-api-key.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/understanding-reverse-geocode-response.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/changelog-release-history.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/command-line-arguments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/address.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/all.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/copy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/settings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/exit-codes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/how-it-s-done.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/installation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intro-examples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/settings.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/uninstallation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/folders-prefixed-with-date-range-names-as-address-date.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/group-into-taken-year-month-day-folders-name-as-date-time.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/grouped-into-country-city-town-folders-names-as-taken-date-and-address.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/names-as-sequential-numbering-in-same-folder-hierarchy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/usages/naming-with-address-date-in-same-folder-hierarchy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/google/google-earth-pro-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/google/google-earth-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/google/google-maps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/calc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/execute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/file-manager.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/tree-command.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/execute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/finder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/numbers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/tree-command.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/execute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/file-explorer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/tree-command.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/_category_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/congratulations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-document.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/deploy-your-site.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/markdown-features.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/_category_.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/commands-verbs/_category_.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/manage-docs-versions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/translate-your-site.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomepageFeatures.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomepageFeatures.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo-dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo-light.svg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ChpDdFgDMj2owxP2NiyYK5P2pu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81eca180-600a-4ec1-9fb1-8f07a9bd898c" name="Changes" comment="" />
+      <created>1659264552821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659264552821</updated>
+      <workItem from="1659264559275" duration="12818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

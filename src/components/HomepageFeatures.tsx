@@ -11,17 +11,17 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Photo Organizer Without External Application',
     image: '/img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
+        xDocusaurus was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Organize By Photo Taken Date and Their Address',
     image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'dd',
     image: '/img/undraw_docusaurus_react.svg',
     description: (
       <>
