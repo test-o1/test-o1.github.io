@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -9,24 +9,37 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  console.log(styles);
+
+  const svgScale = '80%';
+
+  const [size, setSize] = useState({
+    x: window.innerWidth,
+    y: window.innerHeight
+  });
+  const updateSize = () =>
+    setSize({
+      x: window.innerWidth,
+      y: window.innerHeight
+  });
+  useEffect(() => (window.onresize = updateSize), []);
+
+  const bannerUrl = size.x > 800 ? '/img/logo-banner-desktop.svg' : '/img/logo-banner-mobile.svg';
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
 
       <img
-          className={styles.featureSvg}
+          className={styles.featureSvg} width={svgScale} height={svgScale}
           alt='A photo organizer for your file system without sticking to any application or vendor'
-          src={useBaseUrl('/img/logo-dark.svg')}
+          src={useBaseUrl(bannerUrl)}
         />
-
-        {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            photo-cli tutorial - 5min ⏱️
+            to="/docs/intro-examples">
+            photo-cli tutorial & examples
           </Link>
         </div>
       </div>
@@ -35,10 +48,8 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`tessst- ${siteConfig.title}`}
       description="A photo organizer for your file system without sticking to any application or vendor. Extract when and where (reverse geocoding) your photos are taken, copy into a new organized folder with various folder & file naming strategies, export into CSV files.">
       <HomepageHeader />
       <main>

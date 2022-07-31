@@ -2,72 +2,73 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import { useColorMode } from '@docusaurus/theme-common';
 
 type FeatureItem = {
   title: string;
-  image: string;
-  description: JSX.Element;
+  imageLight: string;
+  imageDark: string;
+  description: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Photo Organizer Without External Application',
-    image: '/img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        xDocusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: 'Organize by Photo Taken Date',
+    imageLight: '/img/time-light.svg',
+    imageDark: '/img/time-dark.svg',
+    description: 'Each photograph\'s taken date is a stored within the file in today\'s cameras. This tool creates a new organized folder hierarchy by using this date & time to use in photograph file name and/or folder name.',
   },
   {
-    title: 'Organize By Photo Taken Date and Their Address',
-    image: '/img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: 'Organize by Their Address',
+    imageLight: '/img/location-light.svg',
+    imageDark: '/img/location-dark.svg',
+    description: 'Each photograph\'s coordinate is a stored within the file in today\'s cameras. By the help of third-party reverse geocode provider (has free & paid options) his tool gets every coordinate\'s address and uses them in file name and/or folder name.',
   },
   {
-    title: 'dd',
-    image: '/img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: 'Not Sticking to Any Third Party',
+    imageLight: '/img/privacy-light.svg',
+    imageDark: '/img/privacy-dark.svg',
+    description: 'Today, photo organizers are forced to use their applications or website all the time. This CLI tool just needed to be run once. After processing, you can view your photographs on your file system and can be viewed by any application preference.',
   },
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+type FeatureProps = {
+  title: string;
+  image: string;
+  description: string;
+};
+
+function Feature(props: FeatureProps) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         <img
           className={styles.featureSvg}
-          alt={title}
-          src={useBaseUrl(image)}
+          alt={props.title}
+          src={useBaseUrl(props.image)}
         />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3>{props.title}</h3>
+        <p>{props.description}</p>
       </div>
     </div>
   );
 }
 
 export default function HomepageFeatures(): JSX.Element {
+  const { colorMode } = useColorMode();
+
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          {FeatureList.map((feature, idx) => {
+            const image = colorMode === 'light' ? feature.imageLight : feature.imageDark;
+            return (
+              <Feature key={idx} image={image} title={feature.title} description={feature.description} />
+            )
+          })}
         </div>
       </div>
     </section>

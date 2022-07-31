@@ -2,71 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81eca180-600a-4ec1-9fb1-8f07a9bd898c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/_category_.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/building-your-own-address-with-selected-properties.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/intro.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/merging-selected-address-level-properties-into-single-address.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/selecting-third-party-reverse-geocode-provider.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/setting-api-key.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/address-building-reverse-geocoding/understanding-reverse-geocode-response.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/changelog-release-history.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/command-line-arguments.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/address.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/all.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/copy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/commands-verbs/settings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/exit-codes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/how-it-s-done.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/installation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/intro-examples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/settings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/uninstallation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/_category_.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/folders-prefixed-with-date-range-names-as-address-date.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/group-into-taken-year-month-day-folders-name-as-date-time.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/grouped-into-country-city-town-folders-names-as-taken-date-and-address.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/intro.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/names-as-sequential-numbering-in-same-folder-hierarchy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/usages/naming-with-address-date-in-same-folder-hierarchy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/google/google-earth-pro-desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/google/google-earth-web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/google/google-maps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/calc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/execute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/file-manager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/linux/tree-command.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/execute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/finder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/numbers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/macos/tree-command.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/excel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/execute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/file-explorer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/screenshots/windows/tree-command.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/_category_.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/congratulations.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-document.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/create-a-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/deploy-your-site.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-basics/markdown-features.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/_category_.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/commands-verbs/_category_.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/manage-docs-versions.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tutorial-extras/translate-your-site.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/location-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/location-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo-banner-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo-banner-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo-banner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/privacy-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/privacy-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/time-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/time-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomepageFeatures.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomepageFeatures.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo-dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo-dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo-light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo-light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/markdown-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/docusaurus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tutorial/docsVersionDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/tutorial/localeDropdown.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +35,10 @@
     <option name="groupingKeys">
       <option value="directory" />
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/HomepageFeatures.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/index.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,6 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/ac/dev/test-alp/group/test-o1/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

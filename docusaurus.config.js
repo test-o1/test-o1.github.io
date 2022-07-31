@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'photo-cli',
-  tagline: 'Extract when and where (reverse geocoding) your photos are taken, copy into a new organized folder with various folder & file naming strategies, export into CSV files.',
+  tagline: 'Open source & free CLI tool that runs on macOS, Windows, Linux that extracts when and where (reverse geocode) your photographs are taken, copy into a new organized folder (not modifying source folder) with various folder & file naming strategies or export all data into CSV files.',
   url: 'https://test-o1.github.io', // Your website URL
   baseUrl: '/test-o1/',
   projectName: 'test-o1.github.io',
@@ -47,7 +47,12 @@ const config = {
             type: 'doc',
             docId: 'intro-examples',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
+          },
+          {
+            position: 'left',
+            href: 'https://github.com/photo-cli/photo-cli/',
+            label: 'GitHub',
           }
         ],
       },
@@ -55,37 +60,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Open Source',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
+                label: 'photo-cli',
                 href: 'https://github.com/photo-cli/photo-cli/',
+              },
+              {
+                label: 'docs',
+                href: 'https://github.com/photo-cli/docs/',
               },
             ],
           },
