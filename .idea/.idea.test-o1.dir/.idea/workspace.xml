@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81eca180-600a-4ec1-9fb1-8f07a9bd898c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/location-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/location-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/logo-banner-desktop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/logo-banner-mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/logo-banner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/privacy-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/privacy-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/time-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/time-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/time.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test-o1.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomepageFeatures.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomepageFeatures.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/markdown-page.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/docusaurus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/tutorial/docsVersionDropdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/tutorial/localeDropdown.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "ts.external.directory.path": "/Users/ac/dev/test-alp/group/test-o1/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -73,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659264552821</updated>
       <workItem from="1659264559275" duration="12818000" />
+      <workItem from="1659346457038" duration="2496000" />
     </task>
     <servers />
   </component>
@@ -95,5 +77,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
