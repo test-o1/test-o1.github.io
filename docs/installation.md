@@ -22,7 +22,7 @@ photo-cli [command]
 photo-cli help [command]
 ```
 
-Note: You may test commands on [test photographs](docs/test-photographs) which has coordinates and photograph taken dates in it.
+Note: You may test commands on [test photographs](https://github.com/photo-cli/photo-cli/tree/main/docs/test-photographs/) which has coordinates and photograph taken dates in it.
 
 4. (For macOS and Linux) You should add your `.dotnet/tools` (path may change for your installation choices) to your PATH environment variable.
 

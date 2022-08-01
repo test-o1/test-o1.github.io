@@ -128,7 +128,7 @@ You may replace `{{ApiKey}}` in the address with your API key or you can use the
 
 ##### Using Postman
 
-You may import [photo-cli | Reverse Geocode](docs/reverse-geocode/postman/photo-cli_reverse_geocode.postman_collection.json) collection into [Postman](https://www.postman.com/).
+You may import [photo-cli | Reverse Geocode](https://github.com/photo-cli/photo-cli/blob/main/docs/reverse-geocode/postman/photo-cli_reverse_geocode.postman_collection.json) collection into [Postman](https://www.postman.com/).
 
 You should prepare the following environment variables on Postman.
 
