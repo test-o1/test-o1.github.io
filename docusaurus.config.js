@@ -9,7 +9,7 @@ const config = {
   title: 'photo-cli',
   tagline: 'Open source & free CLI tool that runs on macOS, Windows, Linux that extracts when and where (reverse geocode) your photographs are taken, copy into a new organized folder (not modifying source folder) with various folder & file naming strategies or export all data into CSV files.',
   url: 'https://test-o1.github.io', // Your website URL
-  baseUrl: '/test-o1/',
+  baseUrl: '/',
   projectName: 'test-o1.github.io',
   organizationName: 'test-o1',
   trailingSlash: false,
